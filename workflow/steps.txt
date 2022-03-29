@@ -9,3 +9,59 @@ Steps: [Convert the steps into workflow diagram (include tools for each step) an
 .
 .
 .
+Genomics workflow        		 				 RNA workflow                
+
+
+
+
+
+
+
+
+
+
+
+                                                  
+Combined multiomics approach
+
+
+
+
+
+
+
+
+
+
+
+
+1. Brief explanations on the commands on genomics
+
+FastQ-file QC is performed on to give QC report. 
+Trimmomatic-Qc by filtering and trimming
+BWA MEM-aligns the reads to the reference genome and output a .sam file.
+Samtools view- converts the sam file to bam format using the view command
+Samtools sort-sorts the BAM file using the sort command from samtools.
+Samtools index-indexes the BAM file for display purposes
+bcftools mpileup-calculates the read coverage of positions in the genome using bcftools.
+bcftools calls -calls SNVs with bcftools call.
+vcfutils.pl-filters the SNVs using vcfutils.pl and reports the SNVs in variant calling format.
+
+2. Brief explanations on commands in transcriptomics
+Mapping RNA-Seq reads to the genome with HISAT2
+Samtools view/sort/index-refer to genomics.
+Visualizing transcriptomes with IGV
+Transcript quantification with Kallisto.
+kallisto index -build a Kallisto index from transcript seq.
+kallisto quant-estimate transcript abundance.
+Identifying differentially expressed genes with Sleuth-the goal of differential expression analysis is to identify genes whose expression levels differ between experimental conditions
+
+3. Brief explanations on combined multiomics
+
+We will categorize the integration methods into the following three comprehensive categories: 
+1) Regression/Association-based Methods.
+2) Clustering-based Methods.
+ 3) Network-based Methods.
+Refer the above illustration for multiomics.  
+A “module” is a combination of different Omics markers with similar functions or associations regarding the underlying outcome. A “class” is a group of Omics markers that have the same effect on the outcome. A “sub-sample” is a group of biological samples (e.g., human, animal, plant) with the same behavior regarding the underlying outcome. XX and indicate the features and outcome variable, respectively. nn and pjpj show the sample size and the number of the Omics features in the jth Omics type.
+
