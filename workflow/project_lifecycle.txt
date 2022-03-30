@@ -1,5 +1,5 @@
 Omics Codeathon Project Cycle (+ Timelines):	
-                  1. Decide on datasets (by Mar 22, 2022)   
+1. Decide on datasets (by Mar 22, 2022)   
 		  2. Build Pipeline (by Apr 14, 2022)
 		  3. Test (by Apr 15, 2022)
 		   4. Benchmark against related work (by Apr 16, 2022)
