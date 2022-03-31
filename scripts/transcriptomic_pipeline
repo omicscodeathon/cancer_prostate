@@ -1,0 +1,140 @@
+#!/bin/bash
+​
+##Alignment with TopHat2 using 8 threads
+tophat2 -o file_aligned_output -p 8 genome file_1.fastq
+samtools sort -n file_aligned_output/accepted_hits.bam _sorted
+​
+#Differential expression analysis
+#Counting reads 
+#This process requires a BAM or SAM file as inout and files such as GTF or GFF3 specifying the genmoic features
+#Count reads per gene
+~/Codathon/rna_seq/results/counts/${base}_featurecounts.txt \
+	-a ${gtf} \
+	-o ${base}_featurecounts.txt \
+	${count_input_bam}
+​
+#Normalizing read counts
+# this process will require the use of DESeq2 loaded in R
+# the input data for this process is the output of feature counts (that is raw read counts0)
+​
+#Open an R console the code lines will change to ">" indicating an R console
+install.package(magrittr)
+library(magrittr)
+​
+#get the table of read counts by indicating th path to the file
+read.counts <- read.table("~/Codathon/rna_seq/results/counts/${base}_featurecounts.txt", header = TRUE)
+​
+#one of the requirement of of the assay() slot is that the row.names corresponds to the gene ID and the col.name to the sample names
+row.names(readcounts) <- readcounts$Geneid
+​
+#exclude all column that do not contain read counts
+readcounts <- readcounts[ , -c(1:6)]
+​
+#give meaningful sample names
+orig_names <- c()
+​
+​
+#checking data
+str(readcounts)
+head(readcouns, n = 3)
+​
+#makee dataframe with meta-data where row.names should match the indivdual samplenames
+sample_info <- data.frame(condition = gsub("_[0-9]+", "", names(readcounts)), row.names = names(readcounts) )
+sample_info
+​
+#to install DESeq2
+library(Bioc)
+BiocManager:: install("DESeq2")
+​
+#generate the DESeqDataSet
+DESeq.ds <- DESeqDataSetfromMatrix(countData = readcounss,
+				colData = sample_info,
+				design = ~ condition)
+​
+#checking results using accessors described above
+colData(DESeq.ds) %>% head
+assay(DESeq.ds, "counts") %>% head
+rowData(DESeq.ds) %>% head
+​
+#test what counts() returns
+counts(DESeq.ds) %>% str
+​
+#removing genes without any counts
+DESeq.ds <- DESeq.ds[ rowSums(counts(DESeq.ds)) > 0, ]
+​
+#investigate different library sizes
+colSums(counts(DESeq.ds))
+​
+#calculate the size factor and add it to the data set
+DESeq.ds <- estimatSizeFactors(DESeq.ds)
+sizeFactors(DESeq.ds)
+​
+#check to see that it now containd the sizeFactors
+colData(DESeq.ds)
+​
+#use counts() to immediately retrieve the normalized read count
+counts.sf.normalized <- counts(DESeq.ds, normalized = TRUE)
+​
+#transorme size factor normalized readcounts to log2 scale using pseudo count of 1
+log.norm.counts <- log2(counts.sf_normalized + 1)
+​
+#plottting to visualize non-transformed and log2 transformed read counts
+par(mfrow=c(2,1))
+​
+#plotting a boxplot for non-transformed read counts
+boxplot(counts.sf_normalized, notch = TRUE,
+	main = "untransformed read counts", ylab = "read counts")
+#plotting a boxplot for log2-transformed read counts
+boxplot(log.norm.counts, notch = TRUE,
+	main = "log2-transformed read counts"
+	ylab = "log2(read counts)")
+​
+#visualizing the dataset in a PCA
+library(DESeq2)
+library(ggplot2)
+p <- plotPCA(DESeq.rlog)
+p <- p + theme_bw + ggtitle("Rlog transformed counts")
+print(P).
+​
+#Running differential expression analysis using DESeq2
+str(colData(DESeq.ds)$condition)
+​
+#set first level factor
+colData(DESeq.ds)$condition <- relevel(colData(DESeq.ds)$condition, "")
+​
+#RUnning DGE analysis
+DESeq.ds <- DESeq(DESeq.ds)
+​
+#Using the DESeq function 
+DESeq.ds <- estimateSizefactors(DESeq.ds)
+DESeq.ds <- estimateDispersions(DESeq.ds)
+DESeq.ds <- nbinomWeldTest(DESeq.ds)
+​
+#Using the result() function to extract the base means across samples 
+DGE.results <- results(DESeq.ds, independentFIltering = TRUE, alpha = 0.05)
+summary(DGE.results)
+​
+converting the results to a dataframe
+head(DGE.results)
+table(DGE.results$padj < 0.05)
+rownames(subset(DGE.results, padj < 0.05))
+​
+#Representing result in plot
+#Histogram
+hist(DGE.results$pvalue,
+	col = "grey", border = "white", xlab = "", ylab = "",
+	main = "frequencies of p-values")
+​
+#MA plot
+plotMA(DGE.results, alpha = 0.05, main = "xxxx vs. xxxx",
+	ylim = c(-4,4))
+#Heatmap 
+library(NMF)
+DGE.results.sorted <- DGE.results[order(DGE.results$padj), ]
+DGEgenes <- rownames(subset(DGE.results.sorted, padj < 0.05))
+hm.mat_DGEgenes <- log.norm.counts[DGE, ]
+aheatmap(hm.mat_DGEgenes, Rowv = NA, Colv = NA)
+aheatmap(hm.mat_DGEgenes,
+	Rowv = TRUE, Colv = TRUE,
+	distfun = "homosapien, hclustfun = "average",
+	scale = "row").
