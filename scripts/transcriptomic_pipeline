@@ -1,8 +1,11 @@
 #!/bin/bash
 ​
-##Alignment with TopHat2 using 8 threads
-tophat2 -o file_aligned_output -p 8 genome file_1.fastq
-samtools sort -n file_aligned_output/accepted_hits.bam _sorted
+##aligning all samples to indexed reference genome to generate a sam file as output using hisat2
+SAMPLE=""
+for SAMPLE in $SAMPLES
+do
+hisat2 -p 8 --dta -x $genome -1 ~/Codeathon/RNA_seq_dataset/${SAMPLE}_1.fastq -2 ~/Codeathon/RNA_seq_dataset/${SAMPLE}_2.fastq -S ${SAMPLE}_output.sam
+done
 ​
 #Differential expression analysis
 #Counting reads 
