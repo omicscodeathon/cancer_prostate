@@ -1,5 +1,8 @@
 #!/bin/bash
 ​
+#Activating bionfo
+conda activate bioinfo
+​
 ##aligning all samples to indexed reference genome to generate a sam file as output using hisat2
 SAMPLE=""
 for SAMPLE in $SAMPLES
