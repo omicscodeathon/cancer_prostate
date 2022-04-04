@@ -3,6 +3,7 @@
 Team structure
 
 Core members
+
 1-Team lead: Zedias Chikwambi
 
 2-Co-lead: Marie Hidjo
@@ -14,15 +15,23 @@ Core members
 5-Writer (Manuscript): Lawrence Afolabi
 
 Scripting and Workflow team 
+
 1-Pageneck Chikondowa
+
 2-Glory Jayeoba
+
 3-Marie Hidjo
+
 4-Vincent Acetch Nyangwara
+
 5-David enoma
 
 Manuscript team 
+
 1-Zedias Chikwambi
+
 2-Lawrence Afolabi
+
 3-David Juma
 
 Slides 
