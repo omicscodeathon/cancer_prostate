@@ -1,6 +1,32 @@
 # cancer_prostate
-Multiomic Data Analytics Integration in Prostate Cancer
+Team structure
+Core members
+1-Team lead: Zedias Chikwambi
+2-Co-lead: Marie Hidjo
+3-Technical lead: Pageneck Chikondowa
+4-Writer (Github): Glory Jayeoba
+5-Writer (Manuscript): Lawrence Afolabi
 
+Scripting and Workflow team 
+1-Pageneck Chikondowa
+2-Glory Jayeoba
+3-Marie Hidjo
+4-Vincent Acetch Nyangwara
+5-David enoma
+
+Manuscript team 
+1-Zedias Chikwambi
+2-Lawrence Afolabi
+3-David Juma
+
+Slides 
+1-Zedias Chikwambi
+2-Marie Hidjo
+
+
+
+
+Multiomic Data Analytics Integration in Prostate Cancer
 Summary
 We plan to perform a multi-omics technologies analysis of data generated from genomic, transcriptomic, epigenomic, proteomic and metabolomics studies, in patients with prostate cancer. The aim of the study is to uncover the mechanism of the tumor progression, identifying distinct tumor subtypes and ultimately finding new prostate cancer biomarkers for effective prognosis, prevention, and therapy and monitoring of drug responses.
 
