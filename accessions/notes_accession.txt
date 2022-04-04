@@ -1,4 +1,42 @@
 ##Database: SRA. 
-##Bioproject Id
-PRJN412953
-PRJNA531736
+##Bioproject 
+PRJNA412953: Bioproject Id for whole genome sequences for African men with prostate cancer
+  ## Accession numbers under Bioproject Id
+  SRR6127701
+  SRR6127702
+  SRR6127703
+  SRR6127704
+  SRR6127705
+  SRR6127706
+  SRR6127707
+  SRR6127708
+  SRR6127709
+  SRR6127710
+  SRR6127711
+  SRR6127712
+PRJNA531736: Bioproject Id for targeted RNA-Seq for African men with prostate cancer
+  ## Accession numbers under Bioproject Id
+  SRR8873026
+  SRR8873027
+  SRR8873028
+  SRR8873029
+  SRR8873030
+  SRR8873031
+  SRR8873032
+  SRR8873033
+  SRR8873034
+  SRR8873035
+  SRR8873036
+  SRR8873037
+  SRR8873038
+  SRR8873039
+  SRR8873040
+  SRR8873041
+  SRR8873042
+  SRR8873043
+  SRR8873044
+  SRR8873045
+  SRR8873046
+  SRR8873047
+  SRR8873048
+  SRR8873049
