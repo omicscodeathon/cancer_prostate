@@ -1,10 +1,16 @@
 # cancer_prostate
+
 Team structure
+
 Core members
 1-Team lead: Zedias Chikwambi
+
 2-Co-lead: Marie Hidjo
+
 3-Technical lead: Pageneck Chikondowa
+
 4-Writer (Github): Glory Jayeoba
+
 5-Writer (Manuscript): Lawrence Afolabi
 
 Scripting and Workflow team 
