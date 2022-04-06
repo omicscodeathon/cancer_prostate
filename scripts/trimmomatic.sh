@@ -1,7 +1,6 @@
 #!/bin/bash
-# This script performs 
+# This script calls trimmomatic v0.39 for quality control of the sequence reads for base quality, read length, and adaptor contamination.
 
-# we are going to use trimmomatic v0.39 for quality control
 # Trimmomatic filter poor quality reads and trim poor quality bases from NGS sample reads
 # Trimmomatic can operate one sample at a time, to iterate through many samples we use a for loop
 
@@ -9,8 +8,7 @@
 # In paired end mode, Trimmomatic expects the two input files, and then the names of the output files
 # The first two file names after the ${infile} flag represents our two input files and the next four are our output files
 # The option SLIDINGWINDOW:4:20 allows us to use a sliding window of size 4 that will remove bases if their phred score is below 20
-# The option ILLUMINACLIP:SRR_adapters.fa allow us to o clip the Illumina adapters from the input file using the adapter sequences
-# listed in SRR_adapters.fa
+# The option ILLUMINACLIP:SRR_adapters.fa allow us to clip the Illumina adapters from the input file using the adapter sequences listed in SRR_adapters.fa
 
 
 for infile in *_1.fastq
