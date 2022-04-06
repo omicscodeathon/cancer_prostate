@@ -40,13 +40,18 @@ Multi omics
 
 
 Tools and software
-Whole genome sequence: FastQC, BWA, Bcftools, snpEff
-RNA
 
+Whole genome sequence: FastQC, BWA, Bcftools, snpEff
+
+RNASeq:feature count, HTSeq, Sleuth, 
+
+Metabolome: MetaboAnalytR
+
+Single-omics analysis will be done on Linux and multi-omics analysis will be done in R. 
 
 Input and output
 
-
+Output from single omics will be .tsv format based on different features(SNPs, transcripts, metabolome)
 
 
 
