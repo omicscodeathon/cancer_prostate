@@ -21,7 +21,7 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 1.	Genetic profiling results - Mutation identified via whole-genome sequencing will be recorded.
 2.	Transcriptional profiling results - Determining the transcriptomic information of prostate cancer
 3.	Epigenomic profiling results - Determining the epigenomic status of specific genes
-4.	Proteomic profiling results – determine the proteomic information of the prostate cancer
+4.	Proteomic profiling results – determine the proteomic information of the prostate cancer  
 5.	Metabolomic profiling results – determine the profiles of the metabolites in prostate cancer patients
 
 ### Methods
