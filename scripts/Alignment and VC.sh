@@ -5,7 +5,7 @@
 # This line below will ensure that our script will exit if an error occurs
 set -e
 
-#The line below makes directory results
+#The line below makes directory results/
 mkdir -p ~/codatheon/genome_workflow/Escherichia/data/results
 
 #The line below navigates us to the results directory.
