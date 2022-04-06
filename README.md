@@ -28,12 +28,12 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 
 #### Workflow
 
---Single omics--
+-Single omics-
 
 ![Single omics pathways](https://user-images.githubusercontent.com/102041566/161955431-539e2ed4-c488-4e74-978e-ab74649aa6aa.PNG)
 
 
--- Multi omics --
+- Multi omics -
 
 ![image](https://user-images.githubusercontent.com/102041566/161955384-bdb603ec-f4fc-4853-9ddb-937009b3a510.png)
 
