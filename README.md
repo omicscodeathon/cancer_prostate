@@ -60,7 +60,7 @@ Output from single omics will be .tsv format based on different features(SNPs, t
 
 1-Team lead: Zedias Chikwambi
 
-2-Co-lead: Marie Hidjo
+2-Co-lead: [Marie Hidjo](https://github.com/mariehidjo/cancer_prostate)
 
 3-Technical lead: Pageneck Chikondowa
 
@@ -74,9 +74,9 @@ Output from single omics will be .tsv format based on different features(SNPs, t
 
 2-Glory Jayeoba
 
-3-[Marie Hidjo](https://github.com/mariehidjo/cancer_prostate).
+3-[Marie Hidjo](https://github.com/mariehidjo/cancer_prostate)
 
-4-Vincent Aketch Nyangwara
+4-[Vincent Aketch Nyangwara](https://github.com/vinaketch)
 
 5-David enoma
 
