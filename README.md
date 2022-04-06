@@ -1,23 +1,22 @@
 # cancer_prostate
 
+## Multiomic Data Analytics Integration in Prostate Cancer
 
-Multiomic Data Analytics Integration in Prostate Cancer
-
-Background  
+### Background  
 
 Prostate cancer (PCa), a hormone-dependent oncological disease, is a deadly disease for men associated with heterogeneous clinical outcome. Clinically, it is characterized by indolent phenotypes, rapid progression and aggressive metastatic disease (Sathianathen et al., 2018). Among cancer worldwide, PCa as a common male tumor has an incidence of second lung cancer (Siegel et al., 2019). This neoplastic process according to the Global Cancer Incidence, Mortality and Prevalence (GLOBOCAN) has become a leading cause of cancer worldwide, with over 1.4 million new cases and a total of 375,000 deaths in 2020 (Sung et al., 2020). The heterogeneity of the disease calls for the use of all types of omics data necessary to promote precision medicine. PCa progression is slow compared to other tumors but still harms patient long-term health (Eggener et al., 2015). The multifocal and heterogeneity of primary PCa is associated with poor prognosis (wang et al., 2018), this means that intervention for patients with metastasis are still urgently needed. While patients with slow disease progression show better outcomes, patients with higher aggressiveness show worse treatment prognosis and current clinicopathological indicators do not distinguish well between patients based on their outcomes at the initial stage of the disease (Zhang et al., 2020). Consequently, efficient identification of the risk level of prostate cancer patients and precise therapeutic targets has always been an important equation to solve in PCa. The occurrence and development of PCa is related to multisystem and multilevel pathological changes. Studies at single omics level often have limitations, while combined analysis of multiple omics data can better and more comprehensively develop targeted markers for PCa therapy. A study done by Sinha et al PCa multi omics revealed that proteomics features were significantly more informative for biochemical recurrence prediction than genomic, epigenomics or transcriptomics (Sinha et al., 2019). As much as the single technologies have identified and shed light on the mechanisms of the tumor progression, subtypes and finding new treatment targets, a holistic molecular perspective of the mechanisms, prospective biomarkers and drug targets and responses can only be uncovered when a systems biology approach is adopted. Hence in the current study we shall be using good quality multi-omics data sets from public databases to gain a better understanding of tumor progression, subtyping and finding novel biomarkers that potentially address individual variations in drug responses among prostate cancer patients. In addition, we shall also provide a simplified protocol for routine integration of multi-omics data sets to answer biological questions.
 
 
-# Aim
+### Aim
 Identify African descent biomarkers associated with Prostate cancer using multi omics available data for better management of patients. 
 
-Objectives
+### Objectives
 
 1.Explain prostate cancer biological complexity using multi omics approach
 
 2.Provide a simplified and standardized African specific prostate cancer management 
 
-Outcome Measures 
+### Outcome Measures 
 
 1.	Genetic profiling results - Mutation identified via whole-genome sequencing will be recorded.
 2.	Transcriptional profiling results - Determining the transcriptomic information of prostate cancer
@@ -25,21 +24,21 @@ Outcome Measures
 4.	Proteomic profiling results – determine the proteomic information of the prostate cancer
 5.	Metabolomic profiling results – determine the profiles of the metabolites in prostate cancer patients
 
-Methods
+### Methods
 
-Workflow
+#### Workflow
 
-Single omics
+-- Single omics --
 
 ![Single omics pathways](https://user-images.githubusercontent.com/102041566/161955431-539e2ed4-c488-4e74-978e-ab74649aa6aa.PNG)
 
 
-Multi omics
+-- Multi omics --
 
 ![image](https://user-images.githubusercontent.com/102041566/161955384-bdb603ec-f4fc-4853-9ddb-937009b3a510.png)
 
 
-Tools and software
+### Tools and software
 
 Whole genome sequence: FastQC, BWA, Bcftools, snpEff 
 
@@ -49,15 +48,15 @@ Metabolome: MetaboAnalytR
 
 Single-omics analysis will be done on Linux and multi-omics analysis will be done in R. 
 
-Input and output
+### Input and output
 
 Output from single omics will be .tsv format based on different features(SNPs, transcripts, metabolome)
 
 
 
-Team structure
+## Team structure
 
-Core members
+### Core members
 
 1-Team lead: Zedias Chikwambi
 
@@ -69,7 +68,7 @@ Core members
 
 5-Writer (Manuscript): Lawrence Afolabi
 
-Scripting and Workflow team 
+### Scripting and Workflow team 
 
 1-Pageneck Chikondowa
 
@@ -81,7 +80,7 @@ Scripting and Workflow team
 
 5-David enoma
 
-Manuscript team 
+### Manuscript team 
 
 1-Zedias Chikwambi
 
@@ -89,7 +88,7 @@ Manuscript team
 
 3-David Juma
 
-Slides 
+### Slides 
 
 1-Zedias Chikwambi
 
@@ -97,7 +96,7 @@ Slides
 
 
 
-References 
+### References 
 
 C. Manzoni, D. A. Kia, J. Vandrovcova et al., “Genome, transcriptome and proteome: the rise of omics data and their integration in biomedical sciences,” Briefings in Bioinformatics, vol. 19, no. 2, pp. 286–302, 2018. 
 
