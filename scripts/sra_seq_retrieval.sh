@@ -8,26 +8,25 @@
 # download file: prefetch will download and save SRA file related to SRR accession in 
 # the current directory under newly created SRA accession directory
 
-#GWS
-prefetch SRR2589044 SRR2584863 SRR2584866  # for a single file
+#Retrieval of sequence data sets from SRA database: GWS
+prefetch SRR2589044 SRR2584863 SRR2584866  # for multiple files
 
-#RNA-seq
+#Retrieval of sequence data sets from SRA database: RNA-seq
 
-#prefetch  SRR5790106 SRR5790104  # multiple files
+prefetch  SRR5790106 SRR5790104  # multiple files
 
-# convert to FASTQ: fasterq-dump will convert SRR.sra to SRR.fastq
+# ------------ convert to FASTQ: --------- fasterq-dump will convert SRR.sra to SRR.fastq
 
-# now you can also replace fastq-dump with fasterq-dump which is much faster 
-# and efficient for large datasets
-# by default it will use 6 threads (-e option)
+# Now you can also replace fastq-dump with fasterq-dump which is much faster and efficient for large datasets by default it will use 6 threads (-e option)
 # for paired-end data use --split-files (fastq-dump) and -S or --split-files (fasterq-dump) option
 # use --split-3 option, if the paired-end reads are not properly arranged (e.g. some reads has lack of mate pair)
 
 
-#GWS
+#----------- Conversion of .sra file format to .fastq file format: 
+#---GWS--------
 fasterq-dump  -S  SRR2584866 SRR2584863 SRR2589044  #SRR2589044 #SRR5790106  # single file
 
-#RNA-seq
+#----RNA-seq---
 
 #fasterq-dump  -S SRR5790106  SRR5790104 # multiple files
 
