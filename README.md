@@ -44,7 +44,7 @@ Whole genome sequence: FastQC, BWA, Bcftools, snpEff
 
 RNASeq:feature count, HTSeq, Sleuth, 
 
-Metabolome: MetaboAnalytR
+Metabolome: [MetaboAnalytR](https://www.metaboanalyst.ca/docs/RTutorial.xhtml)
 
 Single-omics analysis will be done on Linux and multi-omics analysis will be done in R. 
 
@@ -62,15 +62,15 @@ Output from single omics will be .tsv format based on different features(SNPs, t
 
 2-Co-lead: [Marie Hidjo](https://github.com/mariehidjo/cancer_prostate)
 
-3-Technical lead: Pageneck Chikondowa
+3-Technical lead: [Pageneck Chikondowa](github.com/pageneck)
 
-4-Writer (Github): Glory Jayeoba
+4-Writer (Github): [Glory Jayeoba](https://github.com/gloryife)
 
-5-Writer (Manuscript): Lawrence Afolabi
+5-Writer (Manuscript): [Lawrence Afolabi](https://github.com/itslawrenceb)
 
 ### Scripting and Workflow team 
 
-1-Pageneck Chikondowa
+1-[David enoma](https://github.com/davidenoma)
 
 2-Glory Jayeoba
 
@@ -78,7 +78,7 @@ Output from single omics will be .tsv format based on different features(SNPs, t
 
 4-[Vincent Aketch Nyangwara](https://github.com/vinaketch)
 
-5-David enoma
+5-Pageneck Chikondowa
 
 ### Manuscript team 
 
