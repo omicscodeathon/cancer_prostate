@@ -74,9 +74,9 @@ Output from single omics will be .tsv format based on different features(SNPs, t
 
 2-Glory Jayeoba
 
-3-Marie Hidjo
+3-[Marie Hidjo](https://github.com/mariehidjo/cancer_prostate).
 
-4-Vincent Acetch Nyangwara
+4-Vincent Aketch Nyangwara
 
 5-David enoma
 
