@@ -41,7 +41,7 @@ Multi omics
 
 Tools and software
 
-Whole genome sequence: FastQC, BWA, Bcftools, snpEff
+Whole genome sequence: FastQC, BWA, Bcftools, snpEff 
 
 RNASeq:feature count, HTSeq, Sleuth, 
 
