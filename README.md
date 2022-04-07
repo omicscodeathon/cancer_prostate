@@ -58,7 +58,7 @@ Output from single omics will be .tsv format based on different features(SNPs, t
 
 ### Core members
 
-1-Team lead: Zedias Chikwambi
+1-Team lead: [Zedias Chikwambi](https://github.com/zchikambi)
 
 2-Co-lead: [Marie Hidjo](https://github.com/mariehidjo/cancer_prostate)
 
@@ -82,7 +82,7 @@ Output from single omics will be .tsv format based on different features(SNPs, t
 
 ### Manuscript team 
 
-1-Zedias Chikwambi
+1-[Zedias Chikwambi](https://github.com/zchikambi/) 
 
 2-Lawrence Afolabi
 
