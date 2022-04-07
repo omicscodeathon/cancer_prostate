@@ -3,8 +3,11 @@
 ## Multiomic Data Analytics Integration in Prostate Cancer
 
 ### Background  
+Prostate cancer (PCa) is the commonest hormone-dependent oncological disease, which is the second leading cause of tumor-related deaths among males worldwide (Siegel et al. 2019; Bray et al., 2020). Clinically, PCa is characterized by indolent phenotypes, rapid progression and aggressive metastatic disease. In comparison to other tumors, PCa progression is slow yet still harms the patient’s long-term health (Eggener., 2015). The multifocal and heterogeneity nature of primary PCa is associated with poor prognosis (Wang et al. 2018. Current clinicopathological indicators do not distinguish well between patients based on their outcomes at the initial stage of the disease (Zhang et al. 2016), as such intervention for patients with metastasis are still urgently needed. The efficient identification of the risk level of prostate cancer patients and precise therapeutic targets has always been an important equation to solve in PCa. 
 
-Prostate cancer (PCa), a hormone-dependent oncological disease, is a deadly disease for men associated with heterogeneous clinical outcome. Clinically, it is characterized by indolent phenotypes, rapid progression and aggressive metastatic disease (Sathianathen et al., 2018). Among cancer worldwide, PCa as a common male tumor has an incidence of second lung cancer (Siegel et al., 2019). This neoplastic process according to the Global Cancer Incidence, Mortality and Prevalence (GLOBOCAN) has become a leading cause of cancer worldwide, with over 1.4 million new cases and a total of 375,000 deaths in 2020 (Sung et al., 2020). The heterogeneity of the disease calls for the use of all types of omics data necessary to promote precision medicine. PCa progression is slow compared to other tumors but still harms patient long-term health (Eggener et al., 2015). The multifocal and heterogeneity of primary PCa is associated with poor prognosis (wang et al., 2018), this means that intervention for patients with metastasis are still urgently needed. While patients with slow disease progression show better outcomes, patients with higher aggressiveness show worse treatment prognosis and current clinicopathological indicators do not distinguish well between patients based on their outcomes at the initial stage of the disease (Zhang et al., 2020). Consequently, efficient identification of the risk level of prostate cancer patients and precise therapeutic targets has always been an important equation to solve in PCa. The occurrence and development of PCa is related to multisystem and multilevel pathological changes. Studies at single omics level often have limitations, while combined analysis of multiple omics data can better and more comprehensively develop targeted markers for PCa therapy. A study done by Sinha et al PCa multi omics revealed that proteomics features were significantly more informative for biochemical recurrence prediction than genomic, epigenomics or transcriptomics (Sinha et al., 2019). As much as the single technologies have identified and shed light on the mechanisms of the tumor progression, subtypes and finding new treatment targets, a holistic molecular perspective of the mechanisms, prospective biomarkers and drug targets and responses can only be uncovered when a systems biology approach is adopted. Hence in the current study we shall be using good quality multi-omics data sets from public databases to gain a better understanding of tumor progression, subtyping and finding novel biomarkers that potentially address individual variations in drug responses among prostate cancer patients. In addition, we shall also provide a simplified protocol for routine integration of multi-omics data sets to answer biological questions.
+In spite of its highest genetic diversity, the African population is reported to have higher prevalence and associated mortality rate of Pca (Cacciatore et al., 2021) in the world. Comparative studies conducted mainly in Africa are crucial to investigate the genetic basis of prostate cancer and its phenotypic adaptation in Africa. Using the African ancestry, some studies successfully fine-mapped important PCa variants, however, these could only explain 30–33% of prostate cancer heritability/variability among individuals/populations (El Jaddaoui et al. 2020). A distinct genomic landscape of PCa and genetic polymorphisms associated with specific ethnic groups may lead to different metabolic adaptations that permit tumor cells to proliferate (Cacciatore et al., 2021). The lack of adequate genetic reference information from the African genome is one of the major obstacles in exploring the benefits of precision oncology in the African context. The high ethnic diversity and prevalence of aggressive PCa in the African population represents an opportunity for biomedical research. Current poor understanding of Pca pathogenesis has limited the effective clinical management of patients with the Pca condition (Sathianathen et al., 2018).
+
+The recent past has seen rapid development and use of high-throughput technologies, such as genomics, transcriptomics, epigenomics, proteomics and metabolomics in attempts of understanding PCa (Kerr et al., 2020). In as much as the single omics technologies have identified and shed light on the mechanisms of the tumor progression, subtypes and finding new treatment targets, the multisystem and multilevel pathological nature of the disease calls for a holistic molecular perspective of the mechanisms, prospective biomarkers and drug targets and responses. This multi-layered analysis can only be uncovered when a systems biology approach is adopted. Hence in the current study we used good quality omics data sets (genomics, and targeted transcriptomics) from public databases to gain a better understanding of tumor progression, subtyping and finding novel biomarkers that potentially address individual variations in drug responses among prostate cancer patients. In addition, we shall also provide a simplified protocol for routine integration of multi-omics data sets to answer biological questions.
 
 
 ### Aim
@@ -20,9 +23,6 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 
 1.	Genetic profiling results - Mutation identified via whole-genome sequencing will be recorded.
 2.	Transcriptional profiling results - Determining the transcriptomic information of prostate cancer
-3.	Epigenomic profiling results - Determining the epigenomic status of specific genes
-4.	Proteomic profiling results – determine the proteomic information of the prostate cancer  
-5.	Metabolomic profiling results – determine the profiles of the metabolites in prostate cancer patients
 
 ### Methods
 
@@ -40,17 +40,25 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 
 ### Tools and software
 
-Whole genome sequence: FastQC, BWA, Bcftools, snpEff 
+Whole genome sequence: 
+SRA toolkit (url): for sequence retreival
+FastQC (url): for sequence read quality analysis, 
+BWA (url): Read mapping to reference (hg38) genome, 
+Bcftools (url): variant calling, 
+snpEff (url): variant annotation and effect prediction 
 
-RNASeq:feature count, HTSeq, Sleuth, 
+Targeted RNASeq:
+feature count: , 
+HTSeq, 
+Sleuth, 
 
-Metabolome: [MetaboAnalytR](https://www.metaboanalyst.ca/docs/RTutorial.xhtml)
-
-Single-omics analysis will be done on Linux and multi-omics analysis will be done in R. 
+Workfolw platforms:
+Single-omics analysis can run in Unix and Linux environments.  
+Multi-omics analysis pipeline can be run in R. 
 
 ### Input and output
 
-Output from single omics will be .tsv format based on different features(SNPs, transcripts, metabolome)
+Output from single omics will be in .tsv format, which is based on different features (SNPs, transcripts)
 
 
 
