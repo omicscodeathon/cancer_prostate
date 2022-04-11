@@ -27,9 +27,10 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 #### Workflow
 
 - Single omics 
-#Whole genome sequencing (WGS) single-omics analysis workflow
+# Whole genome sequencing (WGS) single-omics analysis workflow
 
-![image](https://user-images.githubusercontent.com/93914264/162796205-1ad471ce-8ec0-4f7b-9bee-99351e2794df.png)
+![image](https://user-images.githubusercontent.com/93914264/162796397-7b28270c-7154-465c-9799-18ae1799267a.png)
+
 
 
 
