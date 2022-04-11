@@ -67,6 +67,11 @@ Output from single omics will be in .tsv format, which is based on different fea
 
 ### Results 
 
+![image](https://user-images.githubusercontent.com/93914264/162799004-24156fa8-eaa3-4c30-9687-a6910f735129.png)
+
+Fig 2: Metabolomics KEGG pathways 
+
+
 
 ## Team structure
 
