@@ -27,19 +27,19 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 #### Workflow
 
 - Single omics 
-# Whole genome sequencing (WGS) single-omics analysis workflow
+##### Whole genome sequencing (WGS) single-omics analysis workflow
 
 ![image](https://user-images.githubusercontent.com/93914264/162796397-7b28270c-7154-465c-9799-18ae1799267a.png)
 
-# Targeted RNASeq single-omics analysis workflow
+##### Targeted RNASeq single-omics analysis workflow
 ![image](https://user-images.githubusercontent.com/93914264/162796790-40d9c635-69f7-498f-a10f-934dc972b11f.png)
 
-# Metabolomics single-omics analysis workflow
+##### Metabolomics single-omics analysis workflow
 
 ![image](https://user-images.githubusercontent.com/93914264/162797135-2d89e830-e92e-437a-9265-43cc36e995df.png)
 
 
-- Multi omics 
+**Multi omics** 
 
 ![image](https://user-images.githubusercontent.com/93914264/162797618-2283e6ac-b539-4344-984b-033ab326becc.png)
 
@@ -65,6 +65,7 @@ Multi-omics analysis pipeline can be run in R.
 
 Output from single omics will be in .tsv format, which is based on different features (SNPs, transcripts)
 
+###Results 
 
 
 ## Team structure
