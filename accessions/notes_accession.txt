@@ -43,4 +43,4 @@ PRJNA531736: Bioproject Id for targeted RNA-Seq for African men with prostate ca
   
   ## Accession for metabolomics data
   
-  ID PR000570) was downloaded from metabolomics workbench (www.metabolomicsworkbench.org)
+  ID PR000570 was downloaded from metabolomics workbench (www.metabolomicsworkbench.org)
