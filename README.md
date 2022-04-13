@@ -151,15 +151,6 @@ R.L. Siegel, K.D. Miller, A. Jemal, Cancer statistics, 2019, CA Cancer J. Clin. 
 
 P. Mertins, D.R. Mani, K.V. Ruggles, M.A. Gillette, K.R. Clauser, P. Wang. Proteogenomics connects somatic mutations to signalling in breast cancer, Nature 534 (7605) (2016) 55–62, https://doi.org/10.1038/nature18003 (PubMed PMID: 27251275).
 
- H. Zhang, T. Liu, Z. Zhang, S.H. Payne, B. Zhang, J.E. McDermott, et al., Integrated
-proteogenomic characterization of human high-grade serous ovarian cancer, Cell 166 (3) (2016) 755–765, https://doi.org/10.1016/j.cell.2016.05.069 (PubMed PMID: 27372738).
-
-S.E. Eggener, A.S. Cifu, C. Nabhan, Prostate cancer screening, JAMA 314 (8) (2015) 825–826, https://doi.org/10.1001/jama.2015.8033 (PubMed PMID:26305653). 
-
-G. Wang, D. Zhao, D.J. Spring, R.A. DePinho, Genetics and biology of prostate cancer, Genes Dev. 32 (17–18) (2018) 1105–1140, https://doi.org/10.1101/gad. 315739.118 (PubMed PMID: 30181359). 
-R.L. Siegel, K.D. Miller, A. Jemal, Cancer statistics, 2019, CA Cancer J. Clin. 69 (1) (2019), https://doi.org/10.3322/caac.21551 (PubMed PMID: 30620402). 
-
-A. Sinha, V. Huang, J. Livingstone, J. Wang, N.S. Fox, N. Kurganovs, et al., The Proteogenomic landscape of curable prostate cancer, Cancer Cell 35 (3) (2019), https://doi.org/10.1016/j.ccell.2019.02.005 (PubMed PMID: 30889379). 
 
 
 
