@@ -42,17 +42,28 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 
 ### Tools and software
 
-Whole genome sequence: 
+Whole genome sequence
 SRA toolkit (url): for sequence retreival
-FastQC (url): for sequence read quality analysis, 
+MultiQC, FastQC (url): for sequence read quality analysis, 
 BWA (url): Read mapping to reference (hg38) genome, 
 Bcftools (url): variant calling, 
 snpEff (url): variant annotation and effect prediction 
+SSEA (url): Provide pathways ranked with nominal p-values
 
-Targeted RNASeq:
-feature count: , 
-HTSeq, 
-Sleuth, 
+Targeted RNASeq
+SRA toolkit (url): for sequence retreival
+MultiQC, FastQC (url): forquality analysis 
+Hitsat2 (url): Alignment
+featuresCounts(url): Counts reads that are mapped to genes
+DEseq2 (url): Differential Gene Expression Analysis
+KEGG (url): To identify pathways
+fgsea (url): Fast Gene Set Enrichment Analysis
+
+Metabolomics
+lilikoi (url): Use metabolite expression data to provide pathways
+
+Pathways Multiomics(url): To integrate all single omics and output significance pathways based on p-values
+ 
 
 Workfolw platforms:
 Single-omics analysis can run in Unix and Linux environments.  
@@ -69,7 +80,7 @@ Output from single omics will be in .tsv format, which is based on different fea
 Fig 2: Metabolomics KEGG pathways 
 
 
-
+ 
 ## Team structure
 
 ### Core members
