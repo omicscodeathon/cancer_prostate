@@ -22,7 +22,7 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 
 2.Provide a simplified and standardized African specific prostate cancer management 
 
-### Outcome Measures 
+### Outcome Measures  
 
 1.	Genetic profiling results - Mutation identified via whole-genome sequencing will be recorded.
 2.	Transcriptional profiling results - Determining the transcriptomic information of prostate cancer
