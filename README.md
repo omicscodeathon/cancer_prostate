@@ -44,44 +44,44 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 
 #### Whole genome sequence
 
--- SRA toolkit (url): for sequence retreival
+1- SRA toolkit (url): for sequence retreival
 
-MultiQC, FastQC (url): for sequence read quality analysis, 
+2- MultiQC, FastQC (url): for sequence read quality analysis, 
 
-BWA (url): Read mapping to reference (hg38) genome, 
+3- BWA (url): Read mapping to reference (hg38) genome, 
 
-Bcftools (url): variant calling, 
+4- Bcftools (url): variant calling, 
 
-snpEff (url): variant annotation and effect prediction 
+5- snpEff (url): variant annotation and effect prediction 
 
-SSEA (url): Provide pathways ranked with nominal p-values
+6- SSEA (url): Provide pathways ranked with nominal p-values
 
 #### Targeted RNASeq
 
-SRA toolkit (url): for sequence retreival
+1- SRA toolkit (url): for sequence retreival
 
-MultiQC, FastQC (url): forquality analysis 
+2- MultiQC, FastQC (url): forquality analysis 
 
-Hitsat2 (url): Alignment
+3- Hitsat2 (url): Alignment
 
-featuresCounts(url): Counts reads that are mapped to genes
+4- featuresCounts(url): Counts reads that are mapped to genes
 
-DEseq2 (url): Differential Gene Expression Analysis
+5- DEseq2 (url): Differential Gene Expression Analysis
 
-KEGG (url): To identify pathways
+6- KEGG (url): To identify pathways
 
-fgsea (url): Fast Gene Set Enrichment Analysis
+7- fgsea (url): Fast Gene Set Enrichment Analysis
 
 #### Metabolomics
--- lilikoi (url): Use metabolite expression data to provide pathways
+lilikoi (url): Use metabolite expression data to provide pathways
 
 #### Pathways Multiomics(url): To integrate all single omics and output significance pathways based on p-values
  
 #### Workfolw platforms:
 
-Single-omics analysis can run in Unix and Linux environments.  
+1- Single-omics analysis can be run in Unix/Linux environments.  
 
-Multi-omics analysis pipeline can be run in R. 
+2- Multi-omics analysis pipeline can be run in R. 
 
 ### Input and output
 
