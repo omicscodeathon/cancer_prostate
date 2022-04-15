@@ -10,7 +10,7 @@ Identify African descent biomarkers associated with Prostate cancer using multi 
 
 ### Objectives
 
-1.Explain prostate cancer biological complexity using multi omics approach
+1.Explain prostate cancer biological complexity using multi omics approach 
 
 2.Provide a simplified and standardized African specific prostate cancer management 
 
