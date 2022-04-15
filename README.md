@@ -91,14 +91,14 @@ Output from single omics will be in .tsv format, which is based on different fea
 
 #### RNASeq 
 
-![dendrogram](https://user-images.githubusercontent.com/102041566/163596258-4c0545b6-307b-4d36-a7bb-ca274c8577ab.png) ![image](https://user-images.githubusercontent.com/102041566/163596604-6860370c-8bd7-4b24-9a08-e3d69bd7f407.png)
+![image](https://user-images.githubusercontent.com/102041566/163596917-917c6542-c5e9-4791-89e2-b38d7ea51fe9.png)
 
 
-##### Fig: Clustering and genes distance
+##### Fig: Clustering and genes distance and differential gene expression
 
-![image](https://user-images.githubusercontent.com/102041566/163596514-976557a8-3203-4ab5-9910-228a264e9248.png)
+![image](https://user-images.githubusercontent.com/102041566/163597016-0896b84c-91fb-4181-bbcf-e2c86e090439.png)
 
-##### Fig: Differential Gene Expression 
+Fig: Fig: Cell cycle pathway associated with prostate cancer
 
 
 #### Metabolomics
