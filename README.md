@@ -92,19 +92,15 @@ Output from single omics will be in .tsv format, which is based on different fea
 #### RNASeq 
 
 ![image](https://user-images.githubusercontent.com/102041566/163596917-917c6542-c5e9-4791-89e2-b38d7ea51fe9.png)
-
-
 ##### Fig: Clustering and genes distance and differential gene expression
 
 ![image](https://user-images.githubusercontent.com/102041566/163597016-0896b84c-91fb-4181-bbcf-e2c86e090439.png)
-
-Fig: Fig: Cell cycle pathway associated with prostate cancer
-
+##### Fig: Cell cycle pathway associated with prostate cancer
 
 #### Metabolomics
 ![image](https://user-images.githubusercontent.com/93914264/162799004-24156fa8-eaa3-4c30-9687-a6910f735129.png)
+##### Fig 2: Cell cycle enriched KEGG pathways 
 
-Fig 2: Cell cycle enriched KEGG pathways 
 #### Whole genome sequencing 
 
 #### Multi-omics
