@@ -88,12 +88,9 @@ lilikoi (url): Use metabolite expression data to provide pathways
 Output from single omics will be in .tsv format, which is based on different features (SNPs, transcripts)
 
 ### Results 
-
 #### RNASeq 
-
 ![image](https://user-images.githubusercontent.com/102041566/163596917-917c6542-c5e9-4791-89e2-b38d7ea51fe9.png)
 ##### Fig: Clustering and genes distance and differential gene expression
-
 ![image](https://user-images.githubusercontent.com/102041566/163597016-0896b84c-91fb-4181-bbcf-e2c86e090439.png)
 ##### Fig: Cell cycle pathway associated with prostate cancer
 
