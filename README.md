@@ -89,11 +89,33 @@ Output from single omics will be in .tsv format, which is based on different fea
 
 ### Results 
 
+#### RNASeq 
+
+![dendrogram](https://user-images.githubusercontent.com/102041566/163596258-4c0545b6-307b-4d36-a7bb-ca274c8577ab.png) ![image](https://user-images.githubusercontent.com/102041566/163596604-6860370c-8bd7-4b24-9a08-e3d69bd7f407.png)
+
+
+##### Fig: Clustering and genes distance
+
+![image](https://user-images.githubusercontent.com/102041566/163596514-976557a8-3203-4ab5-9910-228a264e9248.png)
+
+##### Fig: Differential Gene Expression 
+
+
+#### Metabolomics
 ![image](https://user-images.githubusercontent.com/93914264/162799004-24156fa8-eaa3-4c30-9687-a6910f735129.png)
 
-Fig 2: Metabolomics KEGG pathways 
+Fig 2: Cell cycle enriched KEGG pathways 
+#### Whole genome sequencing 
 
+#### Multi-omics
 
+### Discussion 
+
+### Finding 
+
+### Conclusion
+
+### Future perspective 
  
 ## Team structure
 
