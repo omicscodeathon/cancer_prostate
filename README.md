@@ -105,16 +105,14 @@ Fig 2: Metabolomics KEGG pathways
 
 3-Technical lead: [Pageneck Chikondowa](github.com/pageneck)
 
-4-Writer (Github): [Glory Jayeoba](https://github.com/gloryife)
+4-Writer (Github): [David Enoma](https://github.com/davidenoma)
 
 5-Writer (Manuscript): [Lawrence Afolabi](https://github.com/itslawrenceb)
 
 ### Scripting and Workflow team 
 
 1-[David enoma](https://github.com/davidenoma)
-
 2-Glory Jayeoba
-
 3-[Marie Hidjo](https://github.com/mariehidjo/cancer_prostate)
 
 4-[Vincent Aketch Nyangwara](https://github.com/vinaketch)
