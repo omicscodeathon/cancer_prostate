@@ -112,7 +112,7 @@ Fig 2: Metabolomics KEGG pathways
 ### Scripting and Workflow team 
 
 1-[David enoma](https://github.com/davidenoma)
-2-Glory Jayeoba
+2-[Glory Jayeoba](https://github.com/gloryj)
 3-[Marie Hidjo](https://github.com/mariehidjo/cancer_prostate)
 
 4-[Vincent Aketch Nyangwara](https://github.com/vinaketch)
