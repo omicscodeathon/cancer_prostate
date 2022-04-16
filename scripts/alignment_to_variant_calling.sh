@@ -1,6 +1,9 @@
 !/bin/bash/ 
 
-# This script will perform read alignment to the reference genome and variant calling
+# This script will perform read alignment to the reference genome, variant calling, variant annotation and effect prediction
+# Downloading the the snpEff database manually, uncomment the command below
+# java -jar snpEff.jar download -v GRCh37.p13
+
 
 # This line below will ensure that our script will exit if an error occurs
 set -e
@@ -123,5 +126,8 @@ for fq1 in ./*_1.fastq #for all files with forward reads in trimmed directory
     
     #The command below filters the SNVs using vcfutils.pl and reports the SNVs in variant calling format 
     vcfutils.pl varFilter $variants > $final_variants
+    
+    #Running snpEff for variant annotation and effect prediction
+    java -Xmx8g path/to/snpEff/snpEff.jar -c path/to/snpEff/snpEff.config GRCh38.p13 path/to/snps.vcf > snps.annotated.vcf
     
     done
