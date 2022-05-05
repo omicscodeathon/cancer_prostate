@@ -1,0 +1,17 @@
+"","Total Cmpd","Hits","Raw p","-log10(p)","Holm adjust","FDR","Impact"
+"Biosynthesis of unsaturated fatty acids",36,1,0.5448,0.26376,1,0.9696,0
+"Amino sugar and nucleotide sugar metabolism",37,1,0.77919,0.10836,1,0.9696,0
+"Pentose phosphate pathway",22,2,0.81474,0.088981,1,0.9696,0.04712
+"Arginine biosynthesis",14,1,0.86843,0.061268,1,0.9696,0.20305
+"Pyrimidine metabolism",39,1,0.86843,0.061268,1,0.9696,0.01318
+"Nitrogen metabolism",6,1,0.86843,0.061268,1,0.9696,0
+"Citrate cycle (TCA cycle)",20,2,0.89182,0.049723,1,0.9696,0.13672
+"Glyoxylate and dicarboxylate metabolism",32,2,0.89182,0.049723,1,0.9696,0.03175
+"Glycolysis / Gluconeogenesis",26,2,0.89637,0.047515,1,0.9696,0.10065
+"Pyruvate metabolism",22,1,0.91838,0.03698,1,0.9696,0.20684
+"Glycine, serine and threonine metabolism",33,1,0.91838,0.03698,1,0.9696,0
+"Cysteine and methionine metabolism",33,1,0.91838,0.03698,1,0.9696,0
+"Arginine and proline metabolism",38,1,0.91838,0.03698,1,0.9696,0
+"Tyrosine metabolism",42,1,0.91838,0.03698,1,0.9696,0
+"Valine, leucine and isoleucine degradation",40,1,0.92913,0.031923,1,0.9696,0.02264
+"Alanine, aspartate and glutamate metabolism",28,3,0.9696,0.013406,1,0.9696,0
